@@ -19,12 +19,12 @@
 </head>
 
 <body>
-    <div class="container bg-white">
+    <div class="container">
         <!-- Navbar Component -->
         <div class="row p-3 mb-2 bg-warning text-white">
             <div class="col-12">
                 <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-                    <a class="navbar-brand" href="Index1.html"><img src="./images/Dkuche2.png" width="150"
+                    <a class="navbar-brand" href="./Index1.html"><img src="./images/Dkuche2.png" width="150"
                             alt="website logo" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -35,7 +35,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="Index1.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="./Index1.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -43,9 +43,9 @@
                                     Receipes
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="Index1.html">Meals</a>
-                                    <a class="dropdown-item" href="Index2.html">Desserts</a>
-                                    <a class="dropdown-item" href="Index3.html">Drinks</a>
+                                    <a class="dropdown-item" href="./index2.html">Meals</a>
+                                    <a class="dropdown-item" href="./Index3.html">Desserts</a>
+                                    <a class="dropdown-item" href="./Index4.html">Drinks</a>
                                 </div>
                             </li>
 
@@ -71,40 +71,129 @@
                 </nav>
             </div>
         </div>
-        
-            
-        <div className="row m-3 d-flex justify-content-center bg.primary mt-5"> 
+        <!--to add recipe>-->
+        <div class="row justify-content-center bg-white mt-3">
 
-                <div className="col-lg-9 shadow-sm p-4 border rounded description">
-                    <h2 className="text-capitalize pl-4 pt-3 pb-2">Authors</h2>
-                    <ul className="pl-5">
-                        <li>Andreas</li>
-                        <li>Deepshikha Patel</li>
-                        <li>Giovanna</li>
-                    </ul>
-                    <h2 className="text-capitalize pl-4 pt-3 pb-2">Built With</h2>
-                    <ul className="pl-5">
-                        <li>Contentful</li>
-                        <li>Bootstrap</li>
-                        <li>Javascript</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
-                    <h2 className="pl-4 text-capitalize pt-3 pb-2">Objectives</h2>
-                    <p className="pl-4">Build a functional website using Bootstrap</p>
+            <div class="col-12 shadow-sm p-4 border rounded description bg-white">
+                <h2 class="text-capitalize pl-4 pt-3 pb-2">Authors</h2>
+                <ul class="pl-5">
+                    <li>Andreas</li>
+                    <li>Deepshikha Patel</li>
+                    <li>Giovanna</li>
+                </ul>
+                <h2 className="text-capitalize pl-4 pt-3 pb-2">Built With</h2>
+                <ul className="pl-5">
+
+                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                <h2 className="pl-4 text-capitalize pt-3 pb-2">Objectives</h2>
+                <p className="pl-4">Build a functional website using Bootstrap</p>
+            </div>
+
+        </div>
+        <!-- Carousel items -->
+        <div class="row blog bg-dark">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/macarons-g50d6c0405_1920.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/dish-g780ddcc50_1280.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/pasta-final_1280.jpg" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/vegetable-skewer-gd3f7797b1_1920.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/smoothie-final_1280.jpg" alt="Image" style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/cake-g280376e7b_1920.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/drink-g1d3bcadaf_1920.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#">
+                                        <img src="./images/indian-food-gf18e28f11_1920.jpg" alt="Image"
+                                            style="max-width:100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+
+                    </div>
+                    <!--.carousel-inner-->
                 </div>
+                <!--.Carousel-->
 
             </div>
         </div>
-        <!--here footer has to be added-->
 
-    </div>
-    <div class="row bg-warning mt-5 mb-4">
+
+
+    
+
+
+
+
+    <!--here footer has to be added-->
+
+
+
+
+    <div class="row bg-warning mt-3 mb-4">
         <div class="col-4 text-center">
-                <button type="button" class="btn btn-primary btn-lg active mt-2 bg-dark" data-toggle="button" aria-pressed="false">
-                    Feedback
-                  </button>
-                  
+            <button type="button" class="btn btn-primary btn-lg active mt-2 bg-dark" data-toggle="button"
+                aria-pressed="false">
+                Feedback
+            </button>
+
         </div>
         <div class="col-6 text-right">
             <h5>Contact Us</h5>
@@ -113,8 +202,7 @@
             <img src="./images/Bild3.png" width="50px" />
         </div>
     </div>
-</div>
-<!--container is closed here-->
+    </div>
 </body>
 
 </html>
